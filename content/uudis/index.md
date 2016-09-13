@@ -4,7 +4,7 @@ linktitle = "Uudised"
 url = "/uudised"
 
 listing = true
-lang = "et"
-menu = ["et"]
+lang = "en"
+menu = ["en"]
 menu_weight = 10
 +++

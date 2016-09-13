@@ -1,7 +1,7 @@
 +++
 title = "Beeta"
 
-lang = "et"
+lang = "en"
 groups = ["uudised"]
 +++
 

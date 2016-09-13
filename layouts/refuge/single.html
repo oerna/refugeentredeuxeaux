@@ -1,7 +1,7 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
 {{ if .Params.listing }}
-	{{ range .Site.Taxonomies.groups.uudised.Pages.ByWeight }}
+	{{ range .Site.Taxonomies.groups.refuge.Pages.ByWeight }}
 	<section class="section {{ .Title }}">
 		<h3>{{ .Title }}</h3>
 		<p>{{ .Content }}</p>

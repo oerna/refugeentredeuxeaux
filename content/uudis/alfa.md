@@ -1,7 +1,7 @@
 +++
 title = "Alfa"
 
-lang = "et"
+lang = "en"
 groups = ["uudised"]
 +++
 

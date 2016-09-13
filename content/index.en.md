@@ -1,7 +1,7 @@
 +++
-title = "Home"
-linktitle = "Home"
-url = "/home"
+title = "Kodu"
+linktitle = "Kodu"
+url = "/kodu"
 
 lang = "en"
 menu = ["en"]
