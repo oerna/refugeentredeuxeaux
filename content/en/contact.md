@@ -7,12 +7,15 @@ groups = ["en_co"]
 menu = ["enNO"]
 +++
 
+<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 refugeentredeuxeaux@gmail.com  
-/refugeentredeuxeaux  
+<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
 +33(0)479052713  
+<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
 Physical address :  
 Longitude : 06° 50'21.30"E  
 Latitude : 45° 22'0.34"N  
+<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 Postal address :  
 14 Rue des Ecoles  
 73500 Termignon la Vanoise  
