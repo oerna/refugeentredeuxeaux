@@ -3,8 +3,8 @@ title = "Sleeping"
 slug = "sleeping"
 weight = 3
 lang = "en"
-groups = ["en"]
-menu = ["en"]
+groups = ["en_do"]
+menu = ["enNO"]
 url = "/en/#sleeping"
 +++
 

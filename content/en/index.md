@@ -5,6 +5,6 @@ url = "/en"
 
 listing = true
 lang = "en"
-menu = ["en"]
+menu = ["enNO"]
 menu_weight = 10
 +++

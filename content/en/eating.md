@@ -3,8 +3,8 @@ title = "Eating"
 slug = "eating"
 weight = 4
 lang = "en"
-groups = ["en"]
-menu = ["en"]
+groups = ["en_ma"]
+menu = ["enNO"]
 +++
 
 Dear hikers, we offer all day long snacks and drinks to enjoy with a high mountain panoramic view. 

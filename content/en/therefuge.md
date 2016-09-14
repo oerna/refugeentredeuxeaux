@@ -3,8 +3,8 @@ weight = 1
 title = "The Refuge"
 slug = "therefuge"
 lang = "en"
-groups = ["en"]
-menu = ["en"]
+groups = ["en_re"]
+menu = ["enNO"]
 url = ""
 +++
 

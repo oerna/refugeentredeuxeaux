@@ -43,7 +43,7 @@
             
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <button type="button" class="btn btn-primary">Réservation</button>
+                    <a  href="{{ .Site.BaseURL }}/reservation"><button type="button" class="btn btn-primary">Réservation</button></a>
                 </div>
             </div>    
         </div>
@@ -75,7 +75,8 @@
                      <img class="img-responsive img-rounded" alt="Le Refuge Entre Deux Eaux" title="Refuge Entre Deux Eaux" src="/img/vache.jpg"/>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    {{ .Content }}
+                    {{ .Content }}<br/>
+                     <a  href="{{ .Site.BaseURL }}/reservation"><button type="button" class="btn btn-primary">Réservation</button></a>
                 </div>
 
             </div>    

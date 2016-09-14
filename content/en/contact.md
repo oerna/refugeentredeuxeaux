@@ -3,8 +3,8 @@ title = "Contact"
 slug = "contact"
 weight = 6
 lang = "en"
-groups = ["en"]
-menu = ["en"]
+groups = ["en_co"]
+menu = ["enNO"]
 +++
 
 refugeentredeuxeaux@gmail.com  

@@ -3,8 +3,8 @@ title = "Rates"
 slug = "rates"
 weight = 5
 lang = "en"
-groups = ["en"]
-menu = ["en"]
+groups = ["en_ta"]
+menu = ["enNO"]
 +++
 
 Price
