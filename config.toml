@@ -1,4 +1,4 @@
-baseurl = "https://refugeentredeuxeaux.netlify.com/"
+baseurl = "https://www.refugeentredeuxeaux.com/"
 
 [taxonomies]
 tag = "tags"
