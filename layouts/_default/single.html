@@ -1,5 +1,10 @@
 {{ partial "head.html" . }}
-{{ partial "header.html" . }}
-sdlj
-{{ .Content }}
+<section>
+        <div class="container">
+            <h1>Refuge Entre Deux Eaux</h1>
+            <h2>{{ .Title }}</h2>
+                <div class="row">
+                   {{ .Content }}
+            </div>
+        </div>
 {{ partial "footer.html" . }}

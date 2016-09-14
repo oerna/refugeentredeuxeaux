@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     {{ range (index .Site.Taxonomies.menu .Params.lang).Pages }}
-                <li class=""><a class="page-scroll" href="#{{ .LinkTitle }}">{{ .LinkTitle }}</a></li>
+                <li class=""><a class="page-scroll" href="{{ .Site.BaseURL }}/reservation">{{ .LinkTitle }}</a></li>
 		          {{ end }}
                         <li><a href="/fr">Francais</a></li>
                     <li><a href="/en">English</a></li>
