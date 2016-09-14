@@ -30,7 +30,7 @@ Foot
 - 6h of refuge from the bottom of the ovens (Val d ' Isère)  
   
 By car  
-Motorway A43 to Modane - take the exit 30 - then follow the D1006 until Termignon. Departing from Termignon : Out of the village by the direction Lanslebourg D1006, turn left by the D126 (shown Bellecombe parking). Arrival of Bellecombe parking in 20 minutes. Thence, 1h45 market to the hut of Entre-Deux-Eaux.  
+Motorway A43 to Modane - then take the exit 30 - then follow the D1006 until Termignon. Departing from Termignon : Out of the village by the direction Lanslebourg D1006, turn left by the D126 (shown Bellecombe parking). Arrival of Bellecombe parking in 20 minutes. Thence, 1h45 market to the hut of Entre-Deux-Eaux.  
   
 By shuttle bus  
 Departing from Termignon : Originally the House of the Vanoise (side D1006) - place the Vanoise - or before the hotel Eden Vanoise (parking in the parking lot of the VA.). Arrival in Entre-Deux-Eaux, refuge du Plan-du-Lac. Thence, 15 minutes walk to the refuge of Entre-Deux-Eaux (show hours shuttles here)  
