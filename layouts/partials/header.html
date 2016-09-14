@@ -1,19 +1,36 @@
-<header>
-	   
-	<h1 id="title">{{ (index .Site.Data.translations .Params.lang).title }}</h1>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-		  {{ range (index .Site.Taxonomies.menu .Params.lang).Pages }}
-        <a href="{{ .Permalink  }}">{{ .LinkTitle }}</a>
-		  {{ end }}
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">{{ (index .Site.Data.translations .Params.lang).title }}</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    {{ range (index .Site.Taxonomies.menu .Params.lang).Pages }}
+                <li class=""><a class="page-scroll" href="#{{ .LinkTitle }}">{{ .LinkTitle }}</a></li>
+		          {{ end }}
+                        <li><a href="/fr">Francais</a></li>
+                    <li><a href="/en">English</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-		  <div class="clear"></div>
-</nav>
-    <nav id="language-menu">
-		  <a href="/home">Francais</a>
-		  <a href="/kodu">English</a>
-	   </nav>
+        <!-- /.container-fluid -->
+    </nav>
+
+<header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">{{ (index .Site.Data.translations .Params.lang).title }}</h1>
+                <hr>
+                <p>{{ (index .Site.Data.translations .Params.lang).description }}</p>
+            </div>
+        </div>
 </header>
 
-<h2 id="subtitle">{{ .Title }}</h2>

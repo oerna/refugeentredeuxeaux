@@ -1,0 +1,111 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+	        {{ range .Site.Taxonomies.groups.fr_re.Pages.ByWeight }}
+	<section id="{{ .Slug }}" class="section">
+        <div class="container">
+		      <h2>{{ .Title }}</h2>
+            <div class="row">
+                 <div class="col-xs-12 col-md-6 text-justify">
+		      {{ .Content }}
+            
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <img class="img-responsive img-rounded" alt="Le Refuge Entre Deux Eaux" title="Refuge Entre Deux Eaux" src="/img/refuge.jpg"/>
+                </div>
+                            <img class="img-responsive img-rounded" alt="Vue panoramique sur le Refuge Entre Deux Eaux" title="Refuge Entre Deux Eaux" src="/img/refuge_wide.jpg"/>
+
+            </div> 
+        </div>
+	</section>
+{{ end }} 
+{{ range .Site.Taxonomies.groups.fr_pr.Pages.ByWeight }}
+	<section id="{{ .Slug }}" class="bg-primary">
+        <div class="container text-center">
+		      <h2>{{ .Title }}</h2>
+            <hr class="light">
+		      {{ .Content }}
+
+            </div>    
+        
+	</section>
+	       {{ end }}
+
+	        {{ range .Site.Taxonomies.groups.fr_do.Pages.ByWeight }}
+	<section id="{{ .Slug }}" class="section">
+        <div class="container">
+		      <h2>{{ .Title }}</h2>
+            <div class="row">
+                <img class="img-responsive" alt="Le Refuge Entre Deux Eaux" title="Refuge Entre Deux Eaux" src="/img/dortoirPano.jpg"/>
+                <br/>
+                 <div class="col-xs-12 col-md-6 text-justify">
+                     {{ .Content }}
+            
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <button type="button" class="btn btn-primary">Réservation</button>
+                    
+                </div>
+
+            </div>    
+        </div>
+	</section>
+	       {{ end }}
+
+	        {{ range .Site.Taxonomies.groups.fr_ma.Pages.ByWeight }}
+	<section id="{{ .Slug }}" class="section">
+        <div class="container">
+		      <h2>{{ .Title }}</h2>
+            <div class="row">
+                 <div class="col-xs-12 col-md-6 text-justify">
+		      {{ .Content }}
+            
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <img class="img-responsive" alt="Le Refuge Entre Deux Eaux" title="Refuge Entre Deux Eaux" src="/img/refuge.jpg"/>
+                </div>
+
+            </div>    
+        </div>
+	</section>
+	       {{ end }}
+
+	        {{ range .Site.Taxonomies.groups.fr_ta.Pages.ByWeight }}
+	<section id="{{ .Slug }}" class="section">
+        <div class="container">
+		      <h2>{{ .Title }}</h2>
+            <div class="row">
+                 <div class="col-xs-12 col-md-6 text-justify">
+		      {{ .Content }}
+            
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <img class="img-responsive" alt="Le Refuge Entre Deux Eaux" title="Refuge Entre Deux Eaux" src="/img/refuge.jpg"/>
+                </div>
+
+            </div>    
+        </div>
+	</section>
+	       {{ end }}
+
+	        {{ range .Site.Taxonomies.groups.fr_co.Pages.ByWeight }}
+	<section id="{{ .Slug }}" class="section">
+        <div class="container">
+		      <h2>{{ .Title }}</h2>
+            <div class="row">
+                 <div class="col-xs-12 col-md-6 text-justify">
+		      {{ .Content }}
+            
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <img class="img-responsive" alt="Le Refuge Entre Deux Eaux" title="Refuge Entre Deux Eaux" src="/img/refuge.jpg"/>
+                </div>
+
+            </div>    
+        </div>
+	</section>
+	       {{ end }}
+
+
+
+{{ partial "footer.html" . }}

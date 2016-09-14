@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ if .Params.listing }}
+	{{ range .Site.Taxonomies.groups.en.Pages.ByWeight }}
+	<section id="{{ .Title }}" class="section">
+        <div class="container">
+            <div class="row">
+		      <h3>{{ .Title }}</h3>
+		      <p>{{ .Content }}</p>
+            </div>    
+        </div>
+	</section>
+	{{ end }}
+{{ else }}
+	{{ .Content }}
+{{ end }}
+
+{{ partial "footer.html" . }}

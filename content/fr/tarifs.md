@@ -1,8 +1,9 @@
 +++
 title = "Tarifs"
+slug = "tarifs"
 weight = 5
 lang = "fr"
-groups = ["refuge"]
+groups = ["fr_ta"]
 +++
 
 Prix

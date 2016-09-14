@@ -1,8 +1,9 @@
 +++
 title = "Manger"
+slug = "manger"
 weight = 4
 lang = "fr"
-groups = ["refuge"]
+groups = ["fr_ma"]
 +++
 
 Amis randonneurs, nous vous proposons toute la journée des casse-croûte et pique-nique à déguster sur les flancs de nos alpages. 

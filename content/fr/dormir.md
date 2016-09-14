@@ -1,8 +1,11 @@
 +++
 title = "Dormir"
+slug = "dormir"
 weight = 3
 lang = "fr"
-groups = ["refuge"]
+groups = ["fr_do"]
+menu = ["raus"]
+menu_weight = 30
 +++
 
 A votre arrivée au refuge, présentez vous à la réception. Nous vous indiquerons votre dortoir et vous choisirez le lit où vous souhaitez dormir.

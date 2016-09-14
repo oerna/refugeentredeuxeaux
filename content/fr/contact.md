@@ -1,8 +1,10 @@
 +++
 weight = 6
 title = "Contact / Acces"
+slug = "contact"
 lang = "fr"
-groups = ["refuge"]
+groups = ["fr_co"]
+menu = ["fr"]
 +++
 
 refugeentredeuxeaux@gmail.com

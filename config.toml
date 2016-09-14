@@ -1,6 +1,5 @@
 baseurl = "https://refugeentredeuxeaux.netlify.com/"
 
-
 [taxonomies]
 tag = "tags"
 group = "groups"
